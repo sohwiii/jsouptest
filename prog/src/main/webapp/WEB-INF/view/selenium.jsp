@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/jsouphome">다시 검색</a>
-<p>${titles}</p>
-<img src="${src}">
+${mainHTML}
+<br><br>
+${innerHTML}
 </body>
 </html>
