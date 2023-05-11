@@ -13,5 +13,6 @@ public class IndexController {
         // /WEB-INF/jsp/index.jsp
         mav.setViewName("index");//view page name
         return mav;
+        //커밋커밋
     }
 }
