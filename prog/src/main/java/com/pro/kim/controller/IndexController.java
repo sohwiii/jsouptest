@@ -14,5 +14,6 @@ public class IndexController {
         mav.setViewName("index");//view page name
         return mav;
         //커밋커밋
+        //커커커커밋
     }
 }
